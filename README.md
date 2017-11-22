@@ -10,3 +10,8 @@ _A addon for WordPress with Pure_
 - Copy Past the content of addon-wp-pure-ec-min.js into tools > Scripts n Style > Scripts (end of the body tag) [see image below]
 
 ![alt text](https://github.com/tsandras/addon-wp-pure-ec/blob/master/assets/tools-scriptsnstyles.png "Where put the addon")
+
+- Install Simple CSS
+- Copy Past the content of addon-wp-pure-ec-min.css into Apparence > Simple CSS [see image below]
+
+![alt text](https://github.com/tsandras/addon-wp-pure-ec/blob/master/assets/tools-customcss.png "Where put the addon")

@@ -21,4 +21,12 @@ jQuery(window).load(function () {
     jQuery(".optionset li").eq(2).find("a").click();
     $container.isotope( "once", "layoutComplete", function(){ jQuery(".isotope_preloader").removeClass("isotope_preloader")} ); 
   }
+  
+  jQuery("ul.optionset").find("li").on("click", function(event) {
+    var anchor = event.currentTarget.children[0].attributes[1].nodeValue;
+    setTimeout(function () {
+        anchor = anchor.replace('.', '');
+        window.location.hash = anchor.replace('.', '');
+    }, 25);
+  });
 });

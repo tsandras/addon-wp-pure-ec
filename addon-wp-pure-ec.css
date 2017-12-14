@@ -1,3 +1,7 @@
 li.grid_masonry_view, li.inline_view {
   display: none;   
 }
+
+.block_likes {
+  display: none;
+}

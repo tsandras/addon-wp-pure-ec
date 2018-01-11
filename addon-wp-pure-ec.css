@@ -5,3 +5,15 @@ li.grid_masonry_view, li.inline_view {
 .block_likes {
   display: none;
 }
+
+.ico_socialize_pinterest, .ico_socialize_google2 {
+  display: none;
+}
+
+#twitter {
+  display: none;
+}
+
+.left_img {
+  display: none;
+}

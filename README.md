@@ -15,3 +15,15 @@ _A addon for WordPress with Pure_
 - Copy Past the content of addon-wp-pure-ec-min.css into Apparence > Simple CSS [see image below]
 
 ![alt text](https://github.com/tsandras/addon-wp-pure-ec/blob/master/assets/tools-customcss.png "Where put the addon")
+
+### Utilisation
+
+#### Custom Twitter message
+Just add `<div id="twitter">YOUR MESSAGE</div>` anywhere in the Portolio article
+
+#### More left images
+Just add the image (you can use "Ajouter un média" button) and add the `left_img` class
+Example :
+```
+<img class="pf_img" src="http://www.lyir.fr/wp-content/uploads/2017/11/edith.png" alt="" width="220" height="272" />
+```
